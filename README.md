@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+<html>
+    <head>
+        <title>This is LEGEND site!</title>
+        <meta charset="utf-8">
+        <meta name="description" lang="ru" content="Описание сайта">
 
-You can use the [editor on GitHub](https://github.com/Naykanuty/chernov/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+        <meta name="author" content="Никита">
+        <meta name="keywords" content="Naykanuty биография">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <meta name="robots" content="all">
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Naykanuty/chernov/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </head>
+        <body>
+            <h1 align="center"> ДАРОВКИ!!!</h1>
+            <hr size="5" noshade color="#FF033E" />
+            <table>
+                <tr>
+                    <td>
+                        <img src="nikitos.jpg" width="200" alt="тут моя фотка!"/>
+                    </td>
+                    <td>
+                        <p><strong>Биография:</strong></p>
+                            <p><em>Меня зовут <strong>Чернов Никитосик</strong> 2005г РОЖДЕНИЯ!</em></p>
+                            <p><em>Мне 17 годиков,зз</em>-РЫБЫ)</p>
+                    </td>
+                </tr>
+            </table>
+                <hr size="1" noshade color="black" />
+                <h2>Мои соц.сети</h2>
+                <li><a href=https://intsgram.com/c.h.e.r.n.o.v_nik target="_blank"><strong>МОЙ ИНСТАГРАМ)</strong></a></li>
+                <li><a href=https://vk.com/Naykanuty target="_blank"><strong>МОЙ ВК)</strong></a></li>
+                <hr>
+             <h2>Моё хобби</h2>
+                <li>Футбольчик</li>
+                <li>Хоккей</li>
+                <li>ПК игры</li>
+                <li>Работа на компухтере)</li>
+                <hr>
+             <h2>Моя жизнь</h2>
+            <table border="1">
+                <tr>
+                    <th>УГУ</th>
+                    <th>ЕСС</th>
+                    <th>НОУ</th>
+                </tr>
+                  <tr>
+                    <td>КАРАТЕ</td>
+                     <td>ХИП-ХОП</td>
+                     <td>ФУТБОЛ</td>
+                 </tr>
+                 <tr>
+                     <td>ТАНЦЫ</td>
+                     <td>ШМАНЦЫ</td>
+                     <td>БАНЦЫ</td>
+                    </tr>
+                 <tr>
+                      <td>Люблю</td>
+                     <td>Обожаю</td>
+                     <td>не</td>
+                     <hr>
+                  </tr>
+             </table>
+             <h2>СВЯЗЬ СО МНОЙ</h2>
+             <form action="/">
+                 <label for="name">Имя:</label>
+                 <input type="text" id="name" placeholder="Введите имя...">
+                <br>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" placeholder="Введите почту...">
+                 <br>
+                 <label for="text">Ваш текст:</label>
+                 <textarea id="text" rows="2" cols="15"></textarea>>
+                 <br>
+                 <input type="submit" value="Связаться!">
+             </form>
+        </body>
+<html>
